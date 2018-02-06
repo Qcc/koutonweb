@@ -1,0 +1,24 @@
+{
+  "name": "koutonweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "supervisor --harmony index.js",
+    "start": "pm2 start index.js -n koutonweb"    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "mongoose": "^4.13.2",
+    "multer": "^1.3.0"
+  }
+}
